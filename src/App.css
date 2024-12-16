@@ -1,0 +1,206 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+  line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+/* Hero Section */
+ .home {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  background-image: url('https://cdn.theanimegallery.com/theanimegallery/bdeda95d-8e25-43ea-8ae7-e18036dd6c21-307w.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+ .home h1 {
+  font-size: 3rem;
+  color: rgba(0, 0, 0, 0.7);
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+ .home h2 {
+  font-size: 1.5rem;
+  color: rgba(0, 0, 0, 0.7);
+  font-weight: 900;
+}
+
+ .home p {
+  width: 80%;
+  font-size: 1.1rem;
+  color: rgba(0, 0, 0, 0.7);
+  font-weight: 600;
+}
+
+/* Search Bar */
+.search-bar {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.search-bar input {
+  padding: 10px;
+  width: 100%;
+  max-width: 500px;
+  font-size: 1.2rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.search-bar input:focus {
+  outline: none;
+  border-color: #8000ff;
+}
+
+/* Anime Cards */
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 15px;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card a {
+  text-decoration: none;
+}
+
+/* Anime Details Page */
+.anime-details {
+  padding: 20px;
+}
+
+.anime-details h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.anime-details p {
+  font-size: 1.1rem;
+  color: #666;
+}
+
+.anime-details .details-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.anime-details .rating {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.anime-details .rating span {
+  font-weight: 600;
+  color: #ff9800;
+}
+
+.anime-details .rating i {
+  color: #ff9800;
+}
+
+.anime-details .episodes {
+  margin: 20px 0;
+  font-size: 1rem;
+}
+
+.anime-details .synopsis {
+  font-size: 1.1rem;
+  color: #444;
+}
+
+.anime-details img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+  margin: 20px 0;
+}
+
+/* Anime Table */
+.anime-table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+.anime-table th, .anime-table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.anime-table th {
+  background-color: #8000ff;
+  color: #fff;
+}
+
+.anime-table td {
+  background-color: #f9f9f9;
+}
+
+/* Footer */
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer p {
+  font-size: 1rem;
+}
