@@ -35,7 +35,7 @@ export default function Hero() {
       textTransform: "uppercase",
       color: "#000000b8",
       position: 'absolute', // Use absolute positioning for the text
-      top: '30%', // Adjust this to position the text vertically (from top)
+      top: '40%', // Adjust this to position the text vertically (from top)
       left: '45%', // Adjust this to position the text horizontally (from left)
       transform: 'translate(-80%, -100%)', 
           }}
